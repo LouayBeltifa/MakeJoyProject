@@ -1,0 +1,279 @@
+/* 
+* 
+*
+*
+*/ 
+
+.clear {
+    clear: both;
+}
+
+
+/* BODY HTML */
+
+html body {
+    background-color: rgb(207, 207, 207);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Staatliches', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*-------------------------------- TOP NAV BAR ------------------------------ */
+
+.navbar {
+    background-color: white;
+    margin: 0;
+    padding: 15px;
+    color: black;
+    width: 1890px;
+    height: 70px;
+    position: fixed;
+    z-index: 3;
+    box-shadow: 10px 10px 5px #7c7c7c ;
+}
+.leftnav {
+    padding: 0;
+    margin: 0;
+}
+.leftnav img {
+    padding: 0;
+    width: 70px;
+    float: left;
+    margin-left: 20px;
+}
+
+.rightnav {
+    padding: 25px;
+    margin-left: 40px;
+    color: black;
+    border-left: 3px  solid rgb(0, 0, 0);
+    float: left;
+}
+.rightnav a {
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    margin: 40px;
+    font-size: 25px;
+}
+
+.rightnav a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.rightrightnav {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 10px;
+} 
+
+.rightrightnav a {
+    padding: 15px;
+    color: black;
+}
+
+.rightrightnav a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+/* --------------------- END OF NAV BAR -----------------------*/
+.container {
+    width: 1400px;
+    margin: auto;
+    background-color: red;
+    
+}
+
+#header {
+    background-color: white;
+    width: 1400px;
+    height: 1000px;
+    padding: 20px;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 250px;
+    margin-left: 200px;
+    font-size: 100px;
+}
+
+#header img {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+#header h4 {
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+    margin-top: -100px;
+    font-size: 40px;
+}
+
+#header a {
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: 200px;
+    float: left;
+    box-shadow: 10px 10px 5px #c5c5c5 ;
+}
+
+#header a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #f5e400;
+    
+}
+
+#about {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 1400px;
+    height: 1200px;
+    padding: 20px;
+    text-align: center;
+}
+
+#about a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    float: inline-start;
+    box-shadow: 10px 10px 5px #c5c5c5 ;
+}
+
+#about a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #f5e400;
+}
+
+#about h1, h3 {
+    margin-top: 150px;
+}
+
+#about h1 {
+    font-size: 70px;
+}
+
+#about h3 {
+    font-size: 50px;
+}
+
+#events {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 1400px;
+    padding: 20px;
+    text-align: center;
+}
+
+#events h1 {
+    margin-top: 100px;
+}
+
+#main {
+    width: 1400px;
+}
+
+#contact {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 1400px;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h1 {
+    margin-top: 100px;
+}
+
+#contact h1, label {
+    color: white;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #727272;
+    color: #e7e7e7;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactcontainer {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
+  }
+
+  #footer {
+    background-color: white;
+    margin: 0;
+    padding: 15px;
+    color: black;
+    width: 1890px;
+    height: 70px;
+    padding: 15px;
+  }
+  #footer p {
+      padding: 0px;
+      display: inline;
+  }
+
+  #footer a {
+      padding: 15px;
+      color: #000000;
+      text-decoration: none;
+  }
+
+  #footer .center {
+      text-align: center;
+      padding: 0;
+  }
+ 
+  #footer .right {
+    text-align: right;
+    padding: 0;
+}
